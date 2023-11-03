@@ -27,4 +27,42 @@ else
 }
 
 // INSTRUÇÃO SWITCH CASE (apenas uma das verificações será executada)
+string? nome = null;
 
+switch (nome)
+{
+    case "Lucas":
+        Console.WriteLine("O nome é Lucas");
+    break;
+
+    case "João":
+        Console.WriteLine("O nome é João");
+    break;
+
+    case "Maria":
+        Console.WriteLine("O nome é Maria");
+    break;
+
+    default: // Quando nenhum dos casos anteriores foi satisfeito
+    Console.WriteLine("O nome é nulo");
+    break;
+}
+
+// Quando mais de um valor satisfaz a condição
+switch (nome)
+{
+    case "Vitor":
+    case "Vinicius":
+        Console.WriteLine("O nome começa com a letra V");
+    break;
+
+    case "Luis":
+    case "Lucas":
+    case "Lindomar":
+        Console.WriteLine("O nome começa com a letra L");
+    break;
+
+    default:
+    Console.WriteLine("O nome é nulo");
+    break;
+}
