@@ -1,0 +1,19 @@
+O .NET é uma plataforma de código aberto , multiplataforma e gratuita para construir diferentes tipos de aplicativos;
+
+Podemos criar aplicações .NET usando as lingugens C#, F# e Visual Basic, que poderão ser executadas em qualquer S.O compatível.
+
+
+O código escrito pelo programador é compilado para a IL (Intermediate Language) pela CLR do .NET (Common Language Runtime - máquina virtual). Com o código em bytecode gerado, o compilador JI (Just In time) compila o código para linguagem de máquina do SO em questão;
+
+O C# é uma linguagem de alto nível, moderna, open source, fortemente tipada, gerenciada (gerenciamento de memória feito pelo Garbage Collector) e orientada a objetos que permite criar aplicativos executados no .NET.
+
+dotnet --version (Verifica versão do SDK instalado)
+dotnet --list-sdks (Exibe a lista dos sdks instalados)
+dotnet --list-runtimes (Exibe a lista dos runtimes instalados)
+dotnet new --list (Lista todos os templates de projetos)
+dotnet new console -f net6.0 (Define a versão do dotnet de um projeto)
+dotnet new console --use-program-main (Cria um projeto SEM utilizar top level statement)
+dotnet run (Executar o projeto)
+dotnet restore (restaura todos os pacotes do projeto)
+dotnet publish (publicar projeto)
+dotnet add/remove package (Adiciona/remove pacotes do Nuget)
