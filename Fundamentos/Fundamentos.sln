@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fundamentos", "Fundamentos\Fundamentos.csproj", "{DFC74D71-B8A0-466C-AAF8-5DD7EC024712}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataHora", "DataHora\DataHora.csproj", "{9F299578-869A-4CAD-824E-DDAD1B1E2393}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversaoDeTipos", "ConversaoDeTipos\ConversaoDeTipos.csproj", "{0AAB4E9F-33EA-4A2E-85F4-133E68F4F425}"
@@ -18,11 +16,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntradaDeDados", "EntradaDe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClasseMath", "ClasseMath\ClasseMath.csproj", "{7955DE36-203B-4AFE-A16F-4458EEB810D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresRelacionais", "OperadoresRelacionais\OperadoresRelacionais.csproj", "{9CDCEBF4-768D-4B5A-B2F8-B71F4A54BFB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperadoresRelacionais", "OperadoresRelacionais\OperadoresRelacionais.csproj", "{9CDCEBF4-768D-4B5A-B2F8-B71F4A54BFB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Condicionais", "Condicionais\Condicionais.csproj", "{B5053AC0-75B6-4EAF-AE26-F7F6F19C5DEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Condicionais", "Condicionais\Condicionais.csproj", "{B5053AC0-75B6-4EAF-AE26-F7F6F19C5DEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repeticoes", "Repeticoes\Repeticoes.csproj", "{BA0BFD2D-EFB5-4028-BF2B-BA576AFA9F55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repeticoes", "Repeticoes\Repeticoes.csproj", "{BA0BFD2D-EFB5-4028-BF2B-BA576AFA9F55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,10 +28,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DFC74D71-B8A0-466C-AAF8-5DD7EC024712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DFC74D71-B8A0-466C-AAF8-5DD7EC024712}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DFC74D71-B8A0-466C-AAF8-5DD7EC024712}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DFC74D71-B8A0-466C-AAF8-5DD7EC024712}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9F299578-869A-4CAD-824E-DDAD1B1E2393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9F299578-869A-4CAD-824E-DDAD1B1E2393}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F299578-869A-4CAD-824E-DDAD1B1E2393}.Release|Any CPU.ActiveCfg = Release|Any CPU
