@@ -53,3 +53,14 @@ for (int a = 0, b = 0; a + b <= 20; a++, b++)
 {
     Console.WriteLine($"a = {a} e b = {b}");
 }
+
+// Instrução break, assim como no while, encerra o loop
+
+// Instrução continue "pula" uma iteração
+for (int c = 10; c >=0; c--)
+{
+    if (c % 2 == 0)
+        continue;
+
+    Console.WriteLine($"Apenas ímpares: {c}");
+}
