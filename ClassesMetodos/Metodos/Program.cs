@@ -28,6 +28,8 @@ namespace Metodos
             Console.WriteLine(ano);
 
             v1.exibeProprietario("Vítor Mancini"); // Chama o parâmetro enviando uma string como parâmetro
+
+            Veiculo.Estacionar(); // Chama um método estático sem necessidade de instanciar a classe antes
         }
     }
 
@@ -49,10 +51,16 @@ namespace Metodos
             return this.ano;
         }
 
-        // Método com parâmetro
+        // Método com parâmetro (argumento)
         public void exibeProprietario(string nome)
         {
             Console.WriteLine($"Este veículo pertence ao {nome}");
+        }
+
+        // Método estático (não depende de uma estância da classe, pertence a classe em sim). Todos os objetos da classe terão acesso ao método
+        public static void Estacionar()
+        {
+            Console.WriteLine("O carro está estacionado (método estático)");
         }
     }
 }

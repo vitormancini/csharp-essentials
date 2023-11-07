@@ -6,6 +6,8 @@ class Veiculo // Declaração
     public string? marca; // Atributo
     public string? modelo; // Atributo
     public int ano; // Atributo
+
+    public static string chassi; // Um atributo estático não pertence ao objeto que instacia a classe, mas sim a classe em sí.
 }
 
 class Program
