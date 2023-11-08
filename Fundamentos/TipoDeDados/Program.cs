@@ -40,6 +40,14 @@ int cd = ab ?? 0; // Caso "ab" não seja nula, "cd" recebe "ab". Se "ab" for nul
 // Constantes (após declaradas, não podem ter seu valor alterado)
 const double PI = 3.14;
 
+// Tipo anônimo
+var aluno = new
+{
+	Nome = "Vitor",
+	Idade = 43
+};
+
+
 /* 
 Tipos de valor (armazenam diretamente a informação e cada variável tem sua própria cópia dos dados. Os tipos de valor são armazenados na memória Stack - LIFO)
 bool
